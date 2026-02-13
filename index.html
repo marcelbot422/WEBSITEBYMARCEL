@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Video Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to TikTok-like Video Sharing</h1>
+    </header>
+    <main>
+        <section class="video-feed">
+            <h2>Video Feed</h2>
+            <div class="video-post">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Description for video 1</p>
+            </div>
+            <div class="video-post">
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Description for video 2</p>
+            </div>
+            <!-- More video posts can be added here -->
+        </section>
+        <aside class="upload-section">
+            <h2>Upload a Video</h2>
+            <form action="upload.html" method="POST">
+                <input type="file" name="video" accept="video/*" required>
+                <input type="submit" value="Upload">
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2026 Video Sharing Platform</p>
+    </footer>
+</body>
+</html>
